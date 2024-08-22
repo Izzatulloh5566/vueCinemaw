@@ -1,0 +1,499 @@
+@media(max-width:1140px) {
+    .series_box{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        max-width: 540px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .widow {
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 30.64%, rgba(255, 255, 255, 0) 100.72%);
+        height: 450px;
+        margin-top: 30px;
+    }
+
+    .widow_text {
+        max-width: 500px;
+        margin: 30px 0;
+    }
+
+    .widow img {
+        width: 400px;
+    }
+
+    .intro {
+        height: 600px;
+    }
+
+    .title {
+        margin: 30px 0;
+    }
+
+    .film_box {
+        overflow-x: scroll;
+    }
+
+    .film_card {
+        flex-shrink: 0;
+    }
+
+}
+
+@media(max-width:1000px) {
+    .collect_box {
+        gap: 20px;
+    }
+    .collect_card {
+        width: 300px;
+        height: 170px;
+    }
+    .collect_left,
+    .collect_right{
+        height: 155px;
+    }
+    .collect_play{
+        width: 35px;
+    }
+    .widow {
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 25.64%, rgba(255, 255, 255, 0) 100.72%);
+    }
+
+    .widow_text {
+        max-width: 450px;
+        margin: 20px 0;
+        line-height: 130%;
+    }
+
+    .widow img {
+        width: 350px;
+    }
+
+    .intro {
+        height: 500px;
+    }
+
+    .intro_title {
+        font-size: 55px;
+        line-height: 100%;
+    }
+
+    .nav_link span {
+        padding: 30px 6px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+}
+
+@media(max-width:900px) {
+    .game{
+        height: 400px;
+    }
+    .collect_box {
+        overflow-x: scroll;
+    }
+    .collect_card:hover{
+        box-shadow: unset;
+    }
+
+    .collect_card {
+        flex-shrink: 0;
+        width: 270px;
+    }
+    .collect_left,
+    .collect_right{
+        height: 155px;
+    }
+    .collect_play{
+        width: 35px;
+    }
+    .widow {
+        background: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .widow_text {
+        margin: 15px auto;
+        text-align: center;
+        max-width: 550px;
+    }
+
+    .intro_text {
+        margin: 20px 0;
+    }
+
+    .header_top {
+        padding: 15px 0;
+    }
+
+    .header_top img {
+        width: 40px;
+    }
+
+    .intro {
+        height: 450px;
+    }
+
+    .btn {
+        padding: 15px 35px;
+    }
+
+
+}
+
+@media(max-width:800px) {
+   
+    .widow {
+        height: 420px;
+    }
+
+    .title {
+        margin: 20px 0;
+        font-size: 27px;
+    }
+
+    .film_box {
+        gap: 20px;
+    }
+
+    .film_card {
+        width: 230px;
+        height: 330px;
+        padding: 15px;
+        padding-top: 30px;
+        gap: 10px;
+    }
+
+    .film_text {
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .film_card img {
+        width: 35px;
+    }
+
+    .intro {
+        height: 400px;
+    }
+
+    .intro_title {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .intro_text {
+        margin: 15px auto;
+        text-align: center;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .intro_info {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:700px) {
+    .footer_box{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer{
+        padding: 15px 0;
+    }
+    .game{
+        height: 350px;
+        gap: 20px;
+    }
+    .game_title{
+        font-size: 35px;
+        line-height: 100%;
+    }
+    .game_text{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        line-height: 130%;
+    }
+    .widow {
+        height: 360px;
+    }
+
+    .widow_text {
+        font-size: 17px;
+    }
+
+    .widow img {
+        width: 300px;
+    }
+
+    .intro {
+        height: 350px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+    }
+
+    .intro_btn {
+        margin-left: 20px;
+    }
+
+    .nav {
+        padding: 15px 0;
+    }
+
+    .header {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav_list {
+        position: absolute;
+        flex-direction: column;
+        background-color: #040D1F;
+        z-index: 99;
+        top: 0;
+        right: 0;
+        padding: 50px;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s;
+        text-align: center;
+        gap: 0;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+
+    .nav_link span {
+        padding: 20px 6px;
+    }
+
+    .menu:focus~.nav_list {
+        transform: translateX(0);
+    }
+
+    .intro_title {
+        font-size: 40px;
+    }
+
+    .intro_text {
+        font-size: 15px;
+        line-height: 130%;
+    }
+
+    .nav_logo img {
+        width: 90px;
+    }
+
+    .nav_logo {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:600px) {
+    .game{
+        height: 300px;
+        gap: 15px;
+    }
+    .game_title{
+        font-size: 30px;
+    }
+    .game_text{
+        font-size: 15px;
+        -webkit-line-clamp: 4;
+    }
+    .widow {
+        height: 300px;
+    }
+
+    .widow_text {
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .widow img {
+        width: 270px;
+    }
+
+    .title {
+        margin: 15px 0;
+        font-size: 25px;
+    }
+
+    .intro {
+        height: 300px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .intro_title {
+        font-size: 35px;
+    }
+
+    .intro_text {
+        font-size: 14px;
+        line-height: 130%;
+        margin: 10px auto;
+    }
+}
+
+@media(max-width:500px) {
+    .footer_box{
+        gap: 8px;
+    }
+    .footer{
+        padding: 10px 0;
+        margin-top: 15px;
+    }
+    .footer_info{
+        gap: 30px;
+    }
+    .footer_text{
+        font-size: 16px;
+        text-align: center;
+    }
+    .series_box{
+        gap: 15px;
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 15px;
+    }
+    .series_card{
+        width: 230px;
+        min-height: 160px;
+        flex-shrink: 0;
+        background-size: cover;
+        background-position: center;
+        gap: 10px;
+    }
+    .series_play{
+        width: 32px;
+    }
+    .series_title{
+        font-size: 18px;
+    }
+    .game{
+        height: 250px;
+        gap: 12px;
+    }
+    .game_title{
+        font-size: 27px;
+    }
+    .widow {
+        height: 250px;
+    }
+
+    .widow_text {
+        -webkit-line-clamp: 4;
+        font-size: 16px;
+    }
+
+    .widow img {
+        width: 250px;
+    }
+
+    .film_box {
+        gap: 15px;
+    }
+
+    .film_card {
+        width: 210px;
+        height: 300px;
+    }
+
+    .film_time {
+        padding: 5px 20px;
+    }
+
+    .film_title {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .film_text {
+        -webkit-line-clamp: 6;
+    }
+
+    .film_card img {
+        width: 35px;
+    }
+
+    .header_top_text {
+        font-size: 14px;
+    }
+
+    .header_top img {
+        width: 35px;
+    }
+
+    .header_top {
+        padding: 10px 0;
+    }
+
+    .nav_logo img {
+        width: 70px;
+    }
+
+    .nav_logo {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:400px) {
+    .game{
+        height: 200px;
+        gap: 10px;
+    }
+    .game_title{
+        font-size: 24px;
+    }
+    .game_text{
+        font-size: 14px;
+    }
+    .widow {
+        height: 230px;
+    }
+
+    .widow_text {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .widow img {
+        width: 220px;
+    }
+
+    .intro_title {
+        font-size: 30px;
+    }
+
+    .intro {
+        height: 250px;
+    }
+}
